@@ -1,21 +1,18 @@
-# Node modules
-node_modules/
+# Maven build
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
 
 # Logs
-logs
 *.log
 
-# Runtime data
-pids
-*.pid
-*.seed
-
-# Coverage reports
-coverage/
-
-# Environment variables
-.env
-
-# OS files
+# OS-specific
 .DS_Store
 Thumbs.db
+
+# Others
+/out/
